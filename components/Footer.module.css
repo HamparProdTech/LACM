@@ -1,5 +1,5 @@
 .footer {
-  background: #080e16;
+  background: var(--bg-alt);
   padding: 64px 48px 40px;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .links a:hover {
-  color: var(--cream);
+  color: var(--navy);
 }
 
 .bottom {

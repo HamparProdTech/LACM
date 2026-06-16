@@ -1,6 +1,6 @@
 .section {
   padding: 100px 48px;
-  background: var(--navy-mid);
+  background: var(--bg-alt);
 }
 
 .intro {
@@ -45,13 +45,13 @@
 }
 
 .card {
-  background: var(--navy-mid);
+  background: var(--bg-alt);
   padding: 40px 32px;
   transition: background 0.2s;
 }
 
 .card:hover {
-  background: var(--navy-light);
+  background: var(--bg-card);
 }
 
 .num {

@@ -1,6 +1,6 @@
 .section {
   padding: 100px 48px;
-  background: var(--navy);
+  background: var(--bg);
 }
 
 .grid {
@@ -55,7 +55,7 @@
 .panel {
   border: 0.5px solid var(--border);
   padding: 48px;
-  background: var(--navy-light);
+  background: var(--bg-card);
 }
 
 .tag {

@@ -10,13 +10,16 @@
   --navy: #0d1520;
   --navy-mid: #162030;
   --navy-light: #1e2d40;
-  --gold: #b89a5e;
-  --gold-light: #d4b87a;
-  --cream: #f5f0e8;
-  --cream-muted: #c8bfad;
-  --white: #ffffff;
-  --text-muted: #8a9ab0;
-  --border: rgba(184, 154, 94, 0.2);
+  --gold: #8b6914;
+  --gold-light: #b89a5e;
+  --cream: #faf8f4;
+  --cream-muted: #374151;
+  --white: #0d1520;
+  --text-muted: #64748b;
+  --border: rgba(139, 105, 20, 0.25);
+  --bg: #faf8f4;
+  --bg-alt: #f0ece3;
+  --bg-card: #e6e1d6;
 }
 
 html {
@@ -25,11 +28,11 @@ html {
 
 body {
   font-family: 'Inter', sans-serif;
-  background: var(--navy);
-  color: var(--cream);
+  background: var(--bg);
+  color: var(--cream-muted);
   font-size: 15px;
   line-height: 1.7;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 a {

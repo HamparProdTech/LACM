@@ -1,5 +1,5 @@
 .band {
-  background: var(--navy-light);
+  background: var(--bg-card);
   border-top: 0.5px solid var(--border);
   border-bottom: 0.5px solid var(--border);
   padding: 80px 48px;
