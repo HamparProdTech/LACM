@@ -1,0 +1,74 @@
+.footer {
+  background: #080e16;
+  padding: 64px 48px 40px;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  gap: 64px;
+  margin-bottom: 48px;
+}
+
+.logo {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  color: var(--white);
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.logo span {
+  color: var(--gold);
+}
+
+.tagline {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.8;
+  max-width: 280px;
+}
+
+.copy {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 24px;
+  line-height: 1.8;
+}
+
+.heading {
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 20px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.links a {
+  font-size: 13px;
+  color: var(--text-muted);
+  transition: color 0.2s;
+}
+
+.links a:hover {
+  color: var(--cream);
+}
+
+.bottom {
+  border-top: 0.5px solid var(--border);
+  padding-top: 24px;
+}
+
+.legal {
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: 1.8;
+}

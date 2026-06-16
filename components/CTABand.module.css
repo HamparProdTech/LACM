@@ -1,0 +1,67 @@
+.band {
+  background: var(--navy-light);
+  border-top: 0.5px solid var(--border);
+  border-bottom: 0.5px solid var(--border);
+  padding: 80px 48px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 48px;
+}
+
+.headline {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(32px, 4vw, 52px);
+  font-weight: 300;
+  color: var(--white);
+  line-height: 1.1;
+}
+
+.headline em {
+  font-style: italic;
+  color: var(--gold-light);
+}
+
+.sub {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-top: 16px;
+  max-width: 480px;
+  line-height: 1.8;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.btnPrimary {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--navy);
+  background: var(--gold);
+  padding: 14px 32px;
+  font-weight: 500;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.btnPrimary:hover {
+  background: var(--gold-light);
+}
+
+.btnGhost {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--cream-muted);
+  transition: color 0.2s;
+  white-space: nowrap;
+}
+
+.btnGhost:hover {
+  color: var(--white);
+}

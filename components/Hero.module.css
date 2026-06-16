@@ -1,0 +1,96 @@
+.hero {
+  min-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 48px 80px;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(160deg, #0d1520 0%, #162030 50%, #1a2a3a 100%);
+}
+
+.bgText {
+  position: absolute;
+  top: 50%;
+  right: -40px;
+  transform: translateY(-50%);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 220px;
+  font-weight: 300;
+  color: rgba(184, 154, 94, 0.04);
+  line-height: 1;
+  pointer-events: none;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.eyebrow {
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 24px;
+}
+
+.headline {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(52px, 8vw, 96px);
+  font-weight: 300;
+  line-height: 1.0;
+  color: var(--white);
+  margin-bottom: 8px;
+}
+
+.headline em {
+  font-style: italic;
+  color: var(--gold-light);
+}
+
+.sub {
+  font-size: 15px;
+  color: var(--cream-muted);
+  max-width: 540px;
+  margin: 28px 0 40px;
+  line-height: 1.8;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.btnPrimary {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--navy);
+  background: var(--gold);
+  padding: 14px 32px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.btnPrimary:hover {
+  background: var(--gold-light);
+}
+
+.btnGhost {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--cream-muted);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.2s;
+}
+
+.btnGhost::after {
+  content: '→';
+  font-size: 14px;
+}
+
+.btnGhost:hover {
+  color: var(--white);
+}

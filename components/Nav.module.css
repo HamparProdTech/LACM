@@ -1,0 +1,60 @@
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(13, 21, 32, 0.95);
+  backdrop-filter: blur(12px);
+  border-bottom: 0.5px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 48px;
+  height: 72px;
+}
+
+.logo {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.logo span {
+  color: var(--gold);
+}
+
+.links {
+  display: flex;
+  gap: 36px;
+}
+
+.links a {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--cream-muted);
+  transition: color 0.2s;
+}
+
+.links a:hover {
+  color: var(--gold);
+}
+
+.cta {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold);
+  border: 0.5px solid var(--gold);
+  padding: 8px 20px;
+  transition: all 0.2s;
+}
+
+.cta:hover {
+  background: var(--gold);
+  color: var(--navy);
+}
